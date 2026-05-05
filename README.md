@@ -29,7 +29,7 @@ O fluxo lógico consiste em:
 2.  **Processamento:** O System Prompt condiciona o LLM ao contexto GoodWe.
 3.  **Saída:** Resposta técnica estruturada e contextualizada.
 
-[Link para o Fluxograma Interativo](COLOQUE_AQUI_O_SEU_LINK_DO_MERMAID)
+[Link para o Fluxograma Interativo](https://mermaid.ai/app/projects/1473b48a-96af-4b77-b507-341190c819f1/diagrams/506d9836-9b34-45f5-aab5-cbe64ea9447b/share/invite/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkb2N1bWVudElEIjoiNTA2ZDk4MzYtOWIzNC00NWY1LWFhYjUtY2JlNjRlYTk0NDdiIiwiYWNjZXNzIjoiVmlldyIsImlhdCI6MTc3Nzg1NzMxMn0.KnYK5stg6_fuidD_24O0q-rYjWeR2hoQMpow0SQERyI)
 
 ---
 
