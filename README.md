@@ -2,28 +2,28 @@
 
 ## 👥 Integrantes
 * **Lucca Bertolini** - RM: 569552
-* Diego de Oliveira Brandão - RM: 569773
-* Raphaello Caffettani - RM: 572334
-* Cristhian Henrique Clementino - RM: 574117
-* Fabio Pena Vieira - RM: 570441
+* **Diego de Oliveira Brandão** - RM: 569773
+* **Raphaello Caffettani** - RM: 572334
+* **Cristhian Henrique Clementino** - RM: 574117
+* **Fabio Pena Vieira** - RM: 570441
 
-## 📝 Problema Abordado
+##  Problema Abordado
 No contexto do **EV Challenge 2026**, identificamos que a expansão da eletromobilidade enfrenta um gargalo crítico: a gestão eficiente da infraestrutura de recarga. Atualmente, faltam mecanismos integrados para orquestrar potência e gerenciar o uso compartilhado, especialmente em ambientes complexos como condomínios. O problema central é a dificuldade de comunicação entre o hardware (eletroposto) e o usuário final/gestor, resultando em subutilização ou falhas operacionais.
 
-## 🤖 Proposta do Chatbot: "GoodWe EV ChargeOps Assistant"
+##  Proposta do Chatbot: "GoodWe EV ChargeOps Assistant"
 Nosso chatbot foi desenvolvido com foco na persona **Síndico/Gestor de Condomínio** (Foco: *EV ChargeOps*).
 A solução visa automatizar o suporte técnico de primeiro nível, facilitar a gestão de reservas de carga e orientar sobre o faturamento e ciclos de uso dos moradores, reduzindo a carga operacional humana.
 
 ### Justificativa da Persona:
 Escolhemos o cenário condominial pois é onde ocorre o maior conflito de uso de potência e necessidade de regras claras de rateio, tornando o chatbot uma ferramenta essencial para a harmonia e eficiência do sistema.
 
-## 🛠 Tecnologias Selecionadas
+##  Tecnologias Selecionadas
 * **Linguagem:** Python
 * **Modelo de IA:** Gemini 1.5 Pro (Google) via API.
 * **Justificativa:** O Gemini oferece uma janela de contexto ampla para processar manuais de instalação e regras de condomínio, além de possuir integração nativa e eficiente com o ambiente de desenvolvimento utilizado.
 * **Ferramentas:** Google Colab para prototipagem e Mermaid.ai para modelagem de processos.
 
-## 📊 Fluxograma de Funcionamento
+##  Fluxograma de Funcionamento
 O fluxo lógico consiste em:
 1.  **Entrada:** Usuário envia dúvida (ex: "Como cadastro um novo morador?").
 2.  **Processamento:** O System Prompt condiciona o LLM ao contexto GoodWe.
@@ -33,7 +33,7 @@ O fluxo lógico consiste em:
 
 ---
 
-## 🧠 System Prompt (Contexto-Base)
+##  System Prompt (Contexto-Base)
 *Este é o prompt que configura o comportamento da IA:*
 
 > "Você é o 'GoodWe EV Assistant', um especialista técnico e operacional em soluções de carregamento elétrico da GoodWe, especificamente no módulo EV ChargeOps para condomínios. Sua missão é auxiliar síndicos e administradores. 
@@ -47,7 +47,7 @@ O fluxo lógico consiste em:
 
 ---
 
-## 🧪 Modelo de Teste (Avaliação)
+##  Modelo de Teste (Avaliação)
 Abaixo, os cenários de teste para validar a consistência do modelo na Sprint 2:
 
 | Pergunta do Usuário | Resposta Esperada (Ideal) |
