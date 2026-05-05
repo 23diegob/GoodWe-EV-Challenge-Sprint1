@@ -1,6 +1,6 @@
 # GoodWe EV Search - Sprint 1 (EV Challenge 2026)
 
-## 👥 Integrantes
+##  Integrantes
 * **Lucca Bertolini** - RM: 569552
 * **Diego de Oliveira Brandão** - RM: 569773
 * **Raphaello Caffettani** - RM: 572334
